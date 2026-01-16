@@ -1,0 +1,11 @@
+C:\Users\Usuario\Documents\Workspace\todo-list\TodoList\src\TodoList.Exception\bin\Debug\net8.0\TodoList.Exception.deps.json
+C:\Users\Usuario\Documents\Workspace\todo-list\TodoList\src\TodoList.Exception\bin\Debug\net8.0\TodoList.Exception.dll
+C:\Users\Usuario\Documents\Workspace\todo-list\TodoList\src\TodoList.Exception\bin\Debug\net8.0\TodoList.Exception.pdb
+C:\Users\Usuario\Documents\Workspace\todo-list\TodoList\src\TodoList.Exception\obj\Debug\net8.0\TodoList.Exception.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Usuario\Documents\Workspace\todo-list\TodoList\src\TodoList.Exception\obj\Debug\net8.0\TodoList.Exception.AssemblyInfoInputs.cache
+C:\Users\Usuario\Documents\Workspace\todo-list\TodoList\src\TodoList.Exception\obj\Debug\net8.0\TodoList.Exception.AssemblyInfo.cs
+C:\Users\Usuario\Documents\Workspace\todo-list\TodoList\src\TodoList.Exception\obj\Debug\net8.0\TodoList.Exception.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\Documents\Workspace\todo-list\TodoList\src\TodoList.Exception\obj\Debug\net8.0\TodoList.Exception.dll
+C:\Users\Usuario\Documents\Workspace\todo-list\TodoList\src\TodoList.Exception\obj\Debug\net8.0\refint\TodoList.Exception.dll
+C:\Users\Usuario\Documents\Workspace\todo-list\TodoList\src\TodoList.Exception\obj\Debug\net8.0\TodoList.Exception.pdb
+C:\Users\Usuario\Documents\Workspace\todo-list\TodoList\src\TodoList.Exception\obj\Debug\net8.0\ref\TodoList.Exception.dll

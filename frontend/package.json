@@ -1,0 +1,27 @@
+{
+  "name": "com.gabriell.todolist",
+  "version": "0.0.1",
+  "scripts": {
+    "build": "mbt build --mtar com.gabriell.todolist.mtar",
+    "build:workspaces": "npm run build --workspaces --if-present",
+    "deploy": "cf deploy mta_archives/com.gabriell.todolist.mtar --retries 0",
+    "lint": "npm run lint --workspaces --if-present",
+    "ui5lint": "npm run ui5lint --workspaces --if-present",
+    "start:main": "npm start --workspace main",
+    "start:mock": "npm run start:mock --workspace main"
+  },
+  "dependencies": {
+    "mbt": "^1"
+  },
+  "workspaces": [
+    "main"
+  ],
+  "devDependencies": {
+    "ui5-middleware-simpleproxy": "^3.6.2"
+  },
+  "ui5": {
+    "dependencies": [
+      "ui5-middleware-simpleproxy"
+    ]
+  }
+}

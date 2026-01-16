@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Usuario\\Documents\\Workspace\\todo-list\\TodoList\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2E254E6D-7E12-445D-BD78-A32028352250}|src\\TodoList.Infrastructure\\TodoList.Infrastructure.csproj|c:\\users\\usuario\\documents\\workspace\\todo-list\\todolist\\src\\todolist.infrastructure\\http\\externaltodoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E254E6D-7E12-445D-BD78-A32028352250}|src\\TodoList.Infrastructure\\TodoList.Infrastructure.csproj|solutionrelative:src\\todolist.infrastructure\\http\\externaltodoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C98E14EB-93E4-4B59-A2A6-30A41B53D2BC}|src\\TodoList.Application\\TodoList.Application.csproj|c:\\users\\usuario\\documents\\workspace\\todo-list\\todolist\\src\\todolist.application\\usecases\\todos\\sync\\synctodosusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C98E14EB-93E4-4B59-A2A6-30A41B53D2BC}|src\\TodoList.Application\\TodoList.Application.csproj|solutionrelative:src\\todolist.application\\usecases\\todos\\sync\\synctodosusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SyncTodosUseCase.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Workspace\\todo-list\\TodoList\\src\\TodoList.Application\\UseCases\\Todos\\Sync\\SyncTodosUseCase.cs",
+              "RelativeDocumentMoniker": "src\\TodoList.Application\\UseCases\\Todos\\Sync\\SyncTodosUseCase.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\Workspace\\todo-list\\TodoList\\src\\TodoList.Application\\UseCases\\Todos\\Sync\\SyncTodosUseCase.cs",
+              "RelativeToolTip": "src\\TodoList.Application\\UseCases\\Todos\\Sync\\SyncTodosUseCase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-16T08:43:07.648Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ExternalTodoService.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Workspace\\todo-list\\TodoList\\src\\TodoList.Infrastructure\\Http\\ExternalTodoService.cs",
+              "RelativeDocumentMoniker": "src\\TodoList.Infrastructure\\Http\\ExternalTodoService.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\Workspace\\todo-list\\TodoList\\src\\TodoList.Infrastructure\\Http\\ExternalTodoService.cs",
+              "RelativeToolTip": "src\\TodoList.Infrastructure\\Http\\ExternalTodoService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-16T08:41:48.022Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "name": "main",
+  "version": "0.0.1",
+  "private": true,
+  "description": "main description",
+  "keywords": [
+    "ui5",
+    "openui5",
+    "sapui5"
+  ],
+  "main": "webapp/index.html",
+  "devDependencies": {
+    "@sap/ux-specification": "UI5-1.136",
+    "@sap/ux-ui5-tooling": "1",
+    "@ui5/cli": "^3.0.0",
+    "ui5-middleware-simpleproxy": "^3.6.2"
+  },
+  "scripts": {
+    "start": "ui5 serve --config=ui5.yaml --open index.html",
+    "start-local": "ui5 serve --config=ui5-local.yaml --open index.html",
+    "build": "ui5 build --config=ui5.yaml --clean-dest --dest dist",
+    "start:mock": "ui5 serve --config=ui5.yaml --open test/mockServer.html"
+  },
+  "sapux": true
+}

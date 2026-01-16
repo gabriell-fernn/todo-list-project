@@ -1,0 +1,24 @@
+<core:FragmentDefinition xmlns="sap.m" xmlns:core="sap.ui.core">
+  <Dialog
+    title="Detalhes da Tarefa"
+    draggable="true"
+    resizable="true"
+    contentWidth="420px"
+    busy="{details>/busy}"
+    busyIndicatorDelay="0">
+
+    <VBox class="sapUiSmallMargin">
+      <ObjectStatus title="ID" text="{details>/id}" />
+      <ObjectStatus title="Título" text="{details>/title}" />
+      <ObjectStatus title="UserId" text="{details>/userId}" />
+      <ObjectStatus
+        title="Status"
+        text="{= ${details>/completed} ? 'Concluída' : 'Pendente' }"
+        state="{= ${details>/completed} ? 'Success' : 'Warning' }" />
+    </VBox>
+
+    <endButton>
+      <Button text="Fechar" press=".onCloseDetailsDialog" />
+    </endButton>
+  </Dialog>
+</core:FragmentDefinition>

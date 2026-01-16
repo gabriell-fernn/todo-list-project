@@ -1,0 +1,14 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/TodoList.Api/TodoList.Api.csproj" Id="5a1eebe9-6586-40c7-8490-1e05b2526798" />
+    <Project Path="src/TodoList.Application/TodoList.Application.csproj" Id="c98e14eb-93e4-4b59-a2a6-30a41b53d2bc" />
+    <Project Path="src/TodoList.Communication/TodoList.Communication.csproj" Id="514bf9db-36b2-4436-ba33-86570a3d1e63" />
+    <Project Path="src/TodoList.Domain/TodoList.Domain.csproj" Id="978a5ef8-152c-4b42-842a-dd50cfac2c25" />
+    <Project Path="src/TodoList.Exception/TodoList.Exception.csproj" Id="7fba02f9-203c-45bb-90b5-db3d3478d374" />
+    <Project Path="src/TodoList.Infrastructure/TodoList.Infrastructure.csproj" Id="2e254e6d-7e12-445d-bd78-a32028352250" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/CommonTestUtilities/CommonTestUtilities.csproj" Id="19a28433-8b80-42ae-8092-8a3c1c7afbd2" />
+    <Project Path="tests/WebApi.Test/WebApi.Test.csproj" Id="8e75f79d-a873-4123-911d-202e410baca3" />
+  </Folder>
+</Solution>

@@ -1,0 +1,123 @@
+<mvc:View 
+    controllerName="com.gabriell.controller.Main"
+    xmlns="sap.m"
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns:core="sap.ui.core"
+    displayBlock="true">
+
+    <App>
+        <pages>
+            <Page title="Tarefas">
+
+                <!-- HEADER -->
+                <subHeader>
+                    <OverflowToolbar>
+
+                        <Button
+                            text="Ordenar por ID"
+                            press=".onSortById" />
+
+                        <SearchField 
+                            width="60%"
+                            placeholder="Filtrar por título..." 
+                            search=".onFilterSearch"
+                            value="{view>/filterTitle}" />
+
+                        <ToolbarSpacer/>
+
+                        <Button
+                            text="Nova Tarefa"
+                            icon="sap-icon://add"
+                            type="Emphasized"
+                            press=".onOpenCreateDialog" />
+
+                        <Button 
+                            text="Sincronizar" 
+                            icon="sap-icon://synchronize" 
+                            press=".onSyncData"
+                            type="Emphasized" />
+
+                    </OverflowToolbar>
+                </subHeader>
+
+                <!-- CONTENT -->
+                <content>
+                    <Table 
+                        id="tableTodos"
+                        items="{todos>/items}" 
+                        busy="{view>/busy}"
+                        busyIndicatorDelay="0"
+                        growing="true"
+                        growingThreshold="10">
+
+                        <columns>
+                            <Column width="4rem">
+                                <Text text="ID" />
+                            </Column>
+
+                            <Column>
+                                <Text text="Tarefa" />
+                            </Column>
+
+                            <Column>
+                                <Text text="User Id" />
+                            </Column>
+
+                            <Column hAlign="Center" width="10%">
+                                <Text text="Concluído" />
+                            </Column>
+
+                            <Column hAlign="Center" width="12%">
+                                <Text text="Ações" />
+                            </Column>
+                        </columns>
+
+                        <items>
+                            <ColumnListItem vAlign="Middle">
+                                <cells>
+                                    <ObjectIdentifier title="{todos>id}" />
+
+                                    <Text text="{todos>title}" />
+
+                                    <Text text="{todos>userId}" />
+
+                                    <CheckBox 
+                                        selected="{todos>completed}" 
+                                        select=".onToggleCompleted" />
+
+                                    <Button
+                                        text="Detalhes"
+                                        icon="sap-icon://detail-view"
+                                        press=".onShowDetails" />
+                                </cells>
+                            </ColumnListItem>
+                        </items>
+                    </Table>
+                </content>
+
+                <!-- FOOTER -->
+                <footer>
+                    <OverflowToolbar>
+
+                        <Button 
+                            icon="sap-icon://navigation-left-arrow" 
+                            enabled="{= ${view>/page} > 1 }"
+                            press=".onPrevPage" />
+
+                        <ToolbarSpacer/>
+
+                        <Text text="Página {view>/page}" />
+
+                        <ToolbarSpacer/>
+
+                        <Button 
+                            icon="sap-icon://navigation-right-arrow" 
+                            press=".onNextPage" />
+
+                    </OverflowToolbar>
+                </footer>
+
+            </Page>
+        </pages>
+    </App>
+</mvc:View>

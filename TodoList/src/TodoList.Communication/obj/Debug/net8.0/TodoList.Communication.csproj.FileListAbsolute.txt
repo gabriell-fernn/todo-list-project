@@ -1,0 +1,11 @@
+C:\Users\Usuario\Documents\Workspace\todo-list\TodoList\src\TodoList.Communication\bin\Debug\net8.0\TodoList.Communication.deps.json
+C:\Users\Usuario\Documents\Workspace\todo-list\TodoList\src\TodoList.Communication\bin\Debug\net8.0\TodoList.Communication.dll
+C:\Users\Usuario\Documents\Workspace\todo-list\TodoList\src\TodoList.Communication\bin\Debug\net8.0\TodoList.Communication.pdb
+C:\Users\Usuario\Documents\Workspace\todo-list\TodoList\src\TodoList.Communication\obj\Debug\net8.0\TodoList.Communication.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Usuario\Documents\Workspace\todo-list\TodoList\src\TodoList.Communication\obj\Debug\net8.0\TodoList.Communication.AssemblyInfoInputs.cache
+C:\Users\Usuario\Documents\Workspace\todo-list\TodoList\src\TodoList.Communication\obj\Debug\net8.0\TodoList.Communication.AssemblyInfo.cs
+C:\Users\Usuario\Documents\Workspace\todo-list\TodoList\src\TodoList.Communication\obj\Debug\net8.0\TodoList.Communication.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\Documents\Workspace\todo-list\TodoList\src\TodoList.Communication\obj\Debug\net8.0\TodoList.Communication.dll
+C:\Users\Usuario\Documents\Workspace\todo-list\TodoList\src\TodoList.Communication\obj\Debug\net8.0\refint\TodoList.Communication.dll
+C:\Users\Usuario\Documents\Workspace\todo-list\TodoList\src\TodoList.Communication\obj\Debug\net8.0\TodoList.Communication.pdb
+C:\Users\Usuario\Documents\Workspace\todo-list\TodoList\src\TodoList.Communication\obj\Debug\net8.0\ref\TodoList.Communication.dll

@@ -1,0 +1,9 @@
+{
+  "CommonTestUtilities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\Usuario\\Documents\\Workspace\\todo-list\\TodoList\\tests\\CommonTestUtilities",
+  "TodoList.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\Usuario\\Documents\\Workspace\\todo-list\\TodoList\\src\\TodoList.Api",
+  "TodoList.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\Usuario\\Documents\\Workspace\\todo-list\\TodoList\\src\\TodoList.Application",
+  "TodoList.Communication, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\Usuario\\Documents\\Workspace\\todo-list\\TodoList\\src\\TodoList.Communication",
+  "TodoList.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\Usuario\\Documents\\Workspace\\todo-list\\TodoList\\src\\TodoList.Domain",
+  "TodoList.Exception, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\Usuario\\Documents\\Workspace\\todo-list\\TodoList\\src\\TodoList.Exception",
+  "TodoList.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\Usuario\\Documents\\Workspace\\todo-list\\TodoList\\src\\TodoList.Infrastructure"
+}
