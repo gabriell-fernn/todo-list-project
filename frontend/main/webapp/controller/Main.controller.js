@@ -9,7 +9,7 @@ sap.ui.define(
     "use strict";
 
     return Controller.extend("com.gabriell.controller.Main", {
-      _sApiUrl: "https://localhost:7085/api/todos",
+      _sApiUrl: "http://localhost:5130/api/todos",
 
       onInit: function () {
         var oDataModel = new JSONModel({
