@@ -192,7 +192,7 @@ sap.ui.define(
 
           try {
               const response = await fetch(
-                  "https://localhost:7085/api/todos",
+                  "http://localhost:5130/api/todos",
                   {
                       method: "POST",
                       headers: {
@@ -250,7 +250,7 @@ sap.ui.define(
 
       onSyncData: async function () {
         try {
-          const response = await fetch("https://localhost:7085/api/todos/sync", { method: "POST" });
+          const response = await fetch("http://localhost:5130/api/todos/sync", { method: "POST" });
           if (response.ok) {
             MessageToast.show("Sincronização concluída");
             this._loadTodos();
